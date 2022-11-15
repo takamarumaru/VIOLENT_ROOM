@@ -15,10 +15,10 @@ UnityGenerated/
 Library/
 Assets/AssetStoreTools*
 
-/CramMagear_oilshock/Logs/
-/CramMagear_oilshock/UserSettings
-/CramMagear_oilshock/ProjectSettings/ShaderGraphSettings.asset
-/CramMagear_oilshock/ProjectSettings/EditorBuildSettings.asset
+/VIOLENT_ROOM/Logs/
+/VIOLENT_ROOM/UserSettings
+/VIOLENT_ROOM/ProjectSettings/ShaderGraphSettings.asset
+/VIOLENT_ROOM/ProjectSettings/EditorBuildSettings.asset
 
 /CramMagear_oilshock/Assets/CraMagear/Json/skillDataList.json
 
