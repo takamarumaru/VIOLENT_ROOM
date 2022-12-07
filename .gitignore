@@ -16,7 +16,7 @@ Library/
 Assets/AssetStoreTools*
 
 /VIOLENT_ROOM/Logs/
-/VIOLENT_ROOM/UserSettings
+/VIOLENT_ROOM/UserSettings/
 /VIOLENT_ROOM/ProjectSettings/ShaderGraphSettings.asset
 /VIOLENT_ROOM/ProjectSettings/EditorBuildSettings.asset
 
