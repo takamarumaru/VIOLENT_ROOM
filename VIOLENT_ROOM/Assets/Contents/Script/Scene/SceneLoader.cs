@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class SceneLoader : MonoBehaviour
+{
+    public void LoadScene(string path)
+    {
+        CatchLog.Instance.HandleLog(path+"Çì«Ç›çûÇ›Ç‹Ç∑");
+        SceneManager.LoadScene(0);
+    }
+}
