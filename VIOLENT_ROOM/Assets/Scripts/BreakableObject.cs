@@ -6,10 +6,9 @@ public class BreakableObject : MonoBehaviour
 {
     [SerializeField] private Transform brokenPrefab;
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        if (Input.GetMouseButton(0))
+        if(collision.gameObject.CompareTag("Attack"))
         {
             Transform brokenTransform = Instantiate(brokenPrefab, transform.position, transform.rotation);
             brokenTransform.localScale = transform.localScale;
@@ -20,6 +19,15 @@ public class BreakableObject : MonoBehaviour
             }
 
             Destroy(gameObject);
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetMouseButton(0))
+        {
+          
         }
     }
 }

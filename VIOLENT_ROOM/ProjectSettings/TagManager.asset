@@ -6,6 +6,7 @@ TagManager:
   tags:
   - RoomLight
   - Sound
+  - Attack
   layers:
   - Default
   - TransparentFX
