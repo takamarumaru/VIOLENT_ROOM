@@ -63,19 +63,19 @@ namespace OculusSampleFramework
         // Use this for initialization
         void Start()
         {
-            DebugUIBuilder.instance.AddLabel("Distance Grab Sample");
-            DebugUIBuilder.instance.AddToggle("Use Spherecasting", ToggleSphereCasting, useSpherecast);
-            DebugUIBuilder.instance.AddToggle("Grab Through Walls", ToggleGrabThroughWalls, allowGrabThroughWalls);
-            DebugUIBuilder.instance.Show();
+   //         DebugUIBuilder.instance.AddLabel("Distance Grab Sample");
+   //         DebugUIBuilder.instance.AddToggle("Use Spherecasting", ToggleSphereCasting, useSpherecast);
+   //         DebugUIBuilder.instance.AddToggle("Grab Through Walls", ToggleGrabThroughWalls, allowGrabThroughWalls);
+   //         DebugUIBuilder.instance.Show();
 
-			// Forcing physics tick rate to match game frame rate, for improved physics in this sample.
-			// See comment in OVRGrabber.Update for more information.
-			float freq = OVRManager.display.displayFrequency;
-			if(freq > 0.1f)
-			{
-				Debug.Log("Setting Time.fixedDeltaTime to: " + (1.0f / freq));
-				Time.fixedDeltaTime = 1.0f / freq;
-			}
+			//// Forcing physics tick rate to match game frame rate, for improved physics in this sample.
+			//// See comment in OVRGrabber.Update for more information.
+			//float freq = OVRManager.display.displayFrequency;
+			//if(freq > 0.1f)
+			//{
+			//	Debug.Log("Setting Time.fixedDeltaTime to: " + (1.0f / freq));
+			//	Time.fixedDeltaTime = 1.0f / freq;
+			//}
         }
 
         public void ToggleSphereCasting(Toggle t)
