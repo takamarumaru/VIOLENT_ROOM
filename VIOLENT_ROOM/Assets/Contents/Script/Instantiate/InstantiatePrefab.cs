@@ -25,7 +25,7 @@ public class InstantiatePrefab : MonoBehaviour
 
     private void Update()
     {
-        //if(Input.GetKeyDown(KeyCode.L))
+        //if (Input.GetKeyDown(KeyCode.L))
         //{
         //    Create();
         //}

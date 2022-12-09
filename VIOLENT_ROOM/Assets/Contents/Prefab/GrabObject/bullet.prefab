@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2686433133709251414}
   - component: {fileID: 2686433133709251415}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: HandGrabInteractable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,9 +88,9 @@ GameObject:
   - component: {fileID: 2686433135027512329}
   - component: {fileID: 2686433135027512328}
   - component: {fileID: 1303877727017596259}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: bullet
-  m_TagString: Untagged
+  m_TagString: Attack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -328,6 +328,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VBall
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a621395c21d624c8814d86b298c7af,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2632262512983269558, guid: 76a621395c21d624c8814d86b298c7af,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157398984942540281, guid: 76a621395c21d624c8814d86b298c7af,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a621395c21d624c8814d86b298c7af, type: 3}

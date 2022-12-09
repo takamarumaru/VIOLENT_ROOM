@@ -18,10 +18,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Breakable
+  - Destroyer
+  - StageMap
+  - Effect
   - 
   - 
   - 
